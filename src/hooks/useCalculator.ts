@@ -6,7 +6,7 @@ enum Operators {
 
 export const useCalculator = () => {
   const [previousNumber, setPreviousNumber] = useState('0');
-  const [number, setNumber] = useState('100');
+  const [number, setNumber] = useState('0');
   const operatorRef = useRef<Operators>('');
 
   const clean = () => {
